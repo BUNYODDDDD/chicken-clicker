@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+}
+
+.intro {
+	width: 100%;
+	height: 100vh;
+
+	background: url("https://kartinkin.net/pics/uploads/posts/2022-07/1658362942_9-kartinkin-net-p-kuryatnik-art-oboi-9.jpg") no-repeat center;
+	-webkit-background: cover;
+	background-size: cover;
+
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+.main__text {
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	top: 3%;
+	left: 3%;
+	font-size: 50px;
+	color: #ffb266;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #cc6600;
+}
+
+.navi {
+	text-decoration: none;
+	color: #ffb266;
+	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+	transition: color .2s linear;
+	text-shadow: 2px 2px 2px #cc6600;
+
+	margin: 20px;
+
+
+}
+
+.nav {
+	padding-top: 60px;
+	padding-right: 60px;
+}
+
+.navi:hover {
+	color: white;
+	text-shadow: 4px 4px 14px #cc6600;
+}
+
+#btn1 {
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	color: #ffb266;
+
+	position: absolute;
+  	left: 40%;
+  	top: 43%;
+  	z-index: 1000;
+}
+
+#btn2 {
+	font-size: 20px;
+	color: white;
+  	text-decoration: none;
+  	padding: .8em 1em calc(.8em + 3px);
+	background: #ffb266;
+  	transition: background .2s linear;
+  	font-family: 'Poppins', sans-serif;
+  	border-radius: 20px;
+  	text-shadow: 1px 2px 1px #000;
+
+  	position: absolute;
+  	left: 45%;
+  	top: 60%;
+  	z-index: 1000;
+}
+
+#btn2:hover {
+	background: rgba(255,255,255,.2)
+
+}
+
+#btn2:active {
+	background: white; 
+
+}
+
+
+
+.white__menu {
+	max-width: 750px;
+	max-height: 650px;
+	border-radius: 50px;
+
+
+	position: absolute;
+	left: 29%;
+	right: 0%;
+	top: 17%;
+	bottom: 0%;
+	background: #FFFFFF;
+}
+
+.text__white {
+	color: #ffb266;
+	position: absolute;
+	top: 31%;
+	left: 31%;
+	font-size: 20px;
+}
+
+
+.btn3 {
+	font-size: 20px;
+	color: white;
+  	text-decoration: none;
+  	padding: .8em 1em calc(.8em + 3px);
+	background: #ffb266;
+  	transition: background .2s linear;
+  	font-family: 'Poppins', sans-serif;
+  	border-radius: 20px;
+  	text-shadow: 1px 2px 1px #000;
+
+  	position: absolute;
+  	left: 32%;
+  	top: 75%;
+  	z-index: 1000;
+}
+
+.btn3:hover {
+	background: rgba(255,255,255,.2)
+}
+
+
+.btn3:active {
+	background: white; 
+}
+
+
+

@@ -1,0 +1,33 @@
+.intro {
+	width: 100%;
+	height: 100vh;
+
+
+	background: url("https://kartinkin.net/pics/uploads/posts/2022-07/1658362942_9-kartinkin-net-p-kuryatnik-art-oboi-9.jpg") no-repeat center;
+	-webkit-background: cover;
+	background-size: cover;
+
+}
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+.hl {
+	color: #ffb266;
+	text-shadow: 1px 1px 1px gray;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 40px;
+}
+
+p {
+	color: #ffb266;
+	text-shadow: 1px 1px 1px gray;
+	text-align: center;
+}
